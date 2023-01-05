@@ -1,0 +1,14 @@
+Main Activity.java
+
+package com.example.toasttrial;
+import android.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.Toast;
+public class MainActivity extendsAppCompatActivity
+{
+	@Override
+	Protected void onCreate(Bundle savedInstanceState)
+{
+	Super.onCreate(savedInstanceState);
+	setContantView(R.layout.activity_main);
+Toast.makeText(getApplicationContext(),”Hello welcome to Android”,Toast.LENGTH_LONG).show();	}}	
